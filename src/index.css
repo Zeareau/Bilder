@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Ensure full-page dark background and prevent white edges on scroll */
+html, body, #root {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #0b1220 0%, #0f1724 100%);
+  color: #e5e7eb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+body {
+  background-attachment: fixed;
+}
